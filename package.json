@@ -1,7 +1,16 @@
 {
-  "name": "hello-world-test-arti",
-  "version": "1.0.0",
+  "name": "@pierrelbt/hello-world-test-arti",
+  "version": "1.0.1",
   "description": "A minimal hello-world npm project",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/PierreLbt/hello-world-npm-test.git"
+  },
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/",
+    "access": "public",
+    "tag": "latest"
+  },
   "main": "index.js",
   "scripts": {
     "start": "node index.js"
